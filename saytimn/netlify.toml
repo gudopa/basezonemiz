@@ -1,0 +1,8 @@
+[build]
+  publish = "build"  # Yayınlanacak dizin, örneğin React için 'build', Vue için 'dist'
+  command = "npm run build"  # Yapılandırma komutu (React için npm, diğer framework'ler için değişiklik gösterebilir)
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
